@@ -1,0 +1,80 @@
+<!-- code by Prabhjotkaur -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and title -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Boy - Contact Us</title>
+    <!-- Favicon and stylesheet -->
+    <link rel="icon" type="image/x-icon" href="images/6e.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header-container"></div>
+
+    <!-- Headline Section -->
+    <section class="headline">
+        <div class="headline-content">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you!</p>
+        </div>
+    </section>
+
+    <!-- Contact Content Section -->
+    <section class="contact-content">
+        <!-- Contact Card -->
+        <div class="contact-card">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>If you have any questions or inquiries, feel free to contact us using the form below or through our contact information.</p>
+            </div>
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <!-- Name Input -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <!-- Email Input -->
+                    <label for="email">Email:</label>
+                    <div class="email-container">
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <!-- Message Textarea -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <!-- Confirmation Message -->
+                <div id="confirmationMessage" class="confirmation-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info-section">
+        <div class="contact-info-card">
+            <h2>Contact Information</h2>
+            <ul>
+                <!-- Email, Phone, and Address Information -->
+                <li>Email: jotprabh1214@gmail.com</li>
+                <li>Phone: +123-456-7890</li>
+                <li>Address: 123 Retro Street, Nostalgia City</li>
+            </ul>
+            <!-- Send Mail Button -->
+            <a href="mailto:jotprabh1214@gmail.com?subject=Inquiry&body=Hello%20Game%20Boy%20Team,%0D%0A%0D%0AI have an inquiry about your products.%0D%0A%0D%0AThank%20you!" class="btn">Send Mail</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div id="footer-container"></div>
+    <!-- JavaScript Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>

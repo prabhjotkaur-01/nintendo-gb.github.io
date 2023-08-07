@@ -1,0 +1,111 @@
+<!-- code author - Prabhjot kaur -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- To disable the zooming for more clear view  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Boy - Products</title>
+    <link rel="icon" type="image/x-icon" href="images/6e.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- below code is for opening the wikipideia on clicking the learn more  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".btn-learn-more").click(function() {
+                var result = confirm("Do you want to visit Wikipedia to learn more?");
+                if (result) {
+                    window.location.href = "https://en.wikipedia.org/wiki/Game_Boy";
+                }
+            });
+        });
+    </script>
+</head>
+<!-- Starting of body  -->
+<body>
+    <!-- Header -->
+    <div id="header-container"></div>
+    <section class="headline">
+        <div class="headline-content">
+            <h1>Explore Our Products</h1>
+            <p>Discover a variety of retro gaming treasures</p>
+        </div>
+    </section>
+<!-- Classic game boy product with wikipideia btn  -->
+    <div class="product-container">
+        <div class="product-card">
+            <img src="images/product1.png" alt="Game Boy Classic">
+            <h2>Game Boy Classic</h2>
+            <p>Experience the iconic handheld gaming device that started it all.</p>
+            <a href="#" class="btn btn-learn-more">Learn More</a>
+        </div>
+
+<div class="sub-products">
+    <div class="sub-product">
+        <img src="images/tetris.jpg" alt="Tetris">
+        <h3>Tetris</h3>
+        <p>Classic puzzle game that became a sensation.</p>
+    </div>
+
+    <div class="sub-product">
+        <img src="images/legends.jpg" alt="The Legend Of Zelda: Link's Awakening">
+        <h3>The Legend Of Zelda: Link's Awakening</h3>
+        <p>An adventurous journey in a captivating world.</p>
+    </div>
+
+    <div class="sub-product">
+        <img src="images/pokemon_red_blue_in_one_rom.png" alt="Pokemon Red/Blue">
+        <h3>Pokemon Red/Blue</h3>
+        <p>Gotta catch 'em all in this classic RPG adventure.</p>
+    </div>
+
+    <div class="sub-product">
+        <img src="images/mario.jpg" alt="Super Mario Land 2: 6 Golden Coins">
+        <h3>Super Mario Land 2: 6 Golden Coins</h3>
+        <p>Join Mario on a quest to save the kingdom.</p>
+    </div>
+
+    <div class="sub-product">
+        <img src="images/final).jpg" alt="Final Fantasy Adventure">
+        <h3>Final Fantasy Adventure</h3>
+        <p>Embark on an epic journey in this action-packed RPG.</p>
+    </div>
+
+    <div class="sub-product">
+        <img src="images/R.jpg" alt="Contra 3: Alien Wars">
+        <h3>Contra 3: Alien Wars</h3>
+        <p>Battle against alien forces in this intense side-scrolling shooter.</p>
+    </div>
+
+    <div class="sub-product">
+        <img src="images/Harvest_Moon_GB_Box_Artwork.jpg" alt="Harvest Moon GB">
+        <h3>Harvest Moon GB</h3>
+        <p>Cultivate your farm and build a life in this charming simulation game.</p>
+    </div>
+
+    <div class="sub-product">
+        <img src="images/DREAMland).jpg" alt="Kirby's Dream Land">
+        <h3>Kirby's Dream Land</h3>
+        <p>Join Kirby on a whimsical adventure to save Dream Land.</p>
+    </div>
+
+    <div class="sub-product">
+        <img src="images/metroid.jpg" alt="Metroid II: Return of Samus">
+        <h3>Metroid II: Return of Samus</h3>
+        <p>Explore an alien world and hunt down dangerous Metroids.</p>
+    </div>
+</div>
+</div> <!-- End of Product Container -->
+
+    <!-- Call to Action Section -->
+    <div class="cta-section">
+        <div class="cta-card">
+            <h2>Ready to Get Your Game On?</h2>
+            <p>Explore our range of products and bring back the nostalgia of classic gaming.</p>
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+    </div>
+<!-- footer -->
+    <div id="footer-container"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
